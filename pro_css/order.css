@@ -1,0 +1,21 @@
+.truck-animation {
+    display: none;
+    width: 100%;
+    text-align: center;
+}
+
+.truck-animation img {
+    width: 40%;
+    animation: moveTruck 10s linear infinite;
+}
+
+@keyframes moveTruck {
+    0% { transform: translateX(-50px); }
+    100% { transform: translateX(200px); }
+}
+
+.card-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
